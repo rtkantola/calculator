@@ -1,0 +1,49 @@
+body {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#container {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21rem;
+    border: solid black 3px;
+    border-radius: 5px;
+
+}
+#display {
+    box-sizing: border-box;
+    width: 21rem;
+    height: 4rem;
+    background-color: green;
+    
+}
+#operators {
+    width: 21rem;
+    height: 3.5rem;
+    display: flex;
+    border: solid black 1px;
+    
+    
+}
+.operatorButton {
+    flex: 1;
+    background-color: lightskyblue;
+    
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 21rem;
+    
+}
+
+.button {
+    width: 7rem;
+    height: 5rem;
+}
