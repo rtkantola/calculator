@@ -36,14 +36,17 @@ const operate = (first, second, operator) => {
   if (operator === "+") {
     return add(first, second);
   }
-  if (operator === "-") {
+  else if (operator === "-") {
     return subtract(first, second);
   }
-  if (operator === "/") {
+  else if (operator === "/") {
     return divide(first, second);
   }
-  if (operator === "*") {
+  else if (operator === "*") {
     return multiply(first, second);
+  }
+  else {
+    return first; 
   }
 };
 let resetState = () => {
